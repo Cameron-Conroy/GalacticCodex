@@ -69,6 +69,7 @@ public struct BattleCalcView: View {
                             .padding(.vertical, 12)
                     }
                     .buttonStyle(.borderedProminent)
+                    .sensoryFeedback(.impact(weight: .heavy), trigger: viewModel.result?.attackerWinRate)
 
                     if let result = viewModel.result {
                         resultsPanel(result)

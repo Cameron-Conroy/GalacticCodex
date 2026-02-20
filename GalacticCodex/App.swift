@@ -1,4 +1,5 @@
 import SwiftUI
+import SwiftData
 import TI4Data
 import Codex
 import DraftLab
@@ -28,7 +29,7 @@ struct GalacticCodexApp: App {
                         Label("Battle Calc", systemImage: "bolt.shield.fill")
                     }
 
-                ChronicleView()
+                ChronicleWrapper()
                     .tabItem {
                         Label("Chronicle", systemImage: "scroll.fill")
                     }
@@ -45,5 +46,6 @@ struct GalacticCodexApp: App {
                 dataStore.load()
             }
         }
+        .modelContainer(for: PersistedSession.self)
     }
 }

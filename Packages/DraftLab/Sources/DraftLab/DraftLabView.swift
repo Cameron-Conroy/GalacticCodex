@@ -13,6 +13,8 @@ public struct DraftLabView: View {
         case random = "Random"
     }
 
+    @EnvironmentObject private var dataStore: GameDataStore
+
     public init() {}
 
     public var body: some View {
@@ -56,24 +58,58 @@ public struct DraftLabView: View {
     private var actionSection: some View {
         HStack {
             Button("Generate Slices") {
-                let sampleTiles = (1...40).map { i in
-                    SliceTile(
-                        tileNumber: i,
-                        planets: [
-                            SlicePlanet(resources: (i % 4) + 1, influence: ((i + 1) % 3) + 1)
-                        ]
-                    )
-                }
-                _ = draft.generateSlices(from: sampleTiles, count: draft.playerCount)
+                let blueTiles = dataStore.systemTiles
+                    .filter { $0.type == .blue }
+                    .map { tile in
+                        SliceTile(
+                            tileNumber: tile.tileNumber,
+                            planets: tile.planets.map { SlicePlanet(resources: $0.resources, influence: $0.influence) }
+                        )
+                    }
+                _ = draft.generateSlices(from: blueTiles, count: draft.playerCount)
             }
             .buttonStyle(.borderedProminent)
+            .disabled(dataStore.systemTiles.isEmpty)
+            .sensoryFeedback(.impact(weight: .medium), trigger: draft.slices.count)
 
             if draftMode == .random {
                 Button("Random Assign") {
-                    showingRandomAssignment = true
+                    let players = (1...draft.playerCount).map { "Player \($0)" }
+                    let factionNames = dataStore.factions.map(\.name)
+                    let assignments = DraftStateMachine.randomAssignment(
+                        players: players, factions: factionNames, excluding: []
+                    )
+                    stateMachine = nil
+                    showingRandomAssignment = !assignments.isEmpty
+                    // Store for display
+                    if !assignments.isEmpty {
+                        let sm = DraftStateMachine(
+                            playerNames: players, factions: factionNames, bansPerPlayer: 0
+                        )
+                        sm.start()
+                        for player in players {
+                            if let faction = assignments[player] {
+                                sm.pick(faction: faction)
+                            }
+                        }
+                        stateMachine = sm
+                    }
                 }
                 .buttonStyle(.bordered)
+                .disabled(dataStore.factions.isEmpty)
             }
+
+            Button("Start Ban/Pick Draft") {
+                let players = (1...draft.playerCount).map { "Player \($0)" }
+                let factionNames = dataStore.factions.map(\.name)
+                let sm = DraftStateMachine(
+                    playerNames: players, factions: factionNames, bansPerPlayer: 1
+                )
+                sm.start()
+                stateMachine = sm
+            }
+            .buttonStyle(.bordered)
+            .disabled(dataStore.factions.isEmpty)
         }
     }
 

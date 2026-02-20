@@ -6,6 +6,8 @@ import ClaudeAPI
 public struct ChronicleView: View {
     @StateObject private var store = GameDataStore()
     private let apiClient: ClaudeAPIClient?
+    private let onSave: ((GameSession) -> Void)?
+    private let savedSessions: [GameSession]
 
     @State private var session = GameSession()
     @State private var selectedTone: NarrativeTone = .epic
@@ -24,8 +26,14 @@ public struct ChronicleView: View {
     @State private var newPlayerName = ""
     @State private var newPlayerFaction = ""
 
-    public init(apiClient: ClaudeAPIClient? = nil) {
+    public init(
+        apiClient: ClaudeAPIClient? = nil,
+        savedSessions: [GameSession] = [],
+        onSave: ((GameSession) -> Void)? = nil
+    ) {
         self.apiClient = apiClient
+        self.savedSessions = savedSessions
+        self.onSave = onSave
     }
 
     public var body: some View {
@@ -35,6 +43,32 @@ public struct ChronicleView: View {
                 playersSection
                 eventsSection
                 narrativeSection
+
+                if onSave != nil {
+                    Section {
+                        Button("Save Session") {
+                            onSave?(session)
+                        }
+                        .disabled(session.events.isEmpty)
+                    }
+                }
+
+                if !savedSessions.isEmpty {
+                    Section("Session History") {
+                        ForEach(savedSessions) { saved in
+                            Button {
+                                session = saved
+                            } label: {
+                                VStack(alignment: .leading, spacing: 4) {
+                                    Text(saved.title).font(.headline)
+                                    Text("\(saved.events.count) events — \(saved.createdAt.formatted(date: .abbreviated, time: .shortened))")
+                                        .font(.caption).foregroundStyle(.secondary)
+                                }
+                            }
+                            .tint(.primary)
+                        }
+                    }
+                }
             }
             .navigationTitle("Chronicle")
             .toolbar {
@@ -107,6 +141,7 @@ public struct ChronicleView: View {
 
             Button("Add Event") { showingEventSheet = true }
         }
+        .sensoryFeedback(.impact(weight: .light), trigger: session.events.count)
     }
 
     private var narrativeSection: some View {
@@ -128,6 +163,7 @@ public struct ChronicleView: View {
                 Task { await generateNarrative() }
             }
             .disabled(session.events.isEmpty || isGenerating || apiClient == nil)
+            .sensoryFeedback(.success, trigger: session.narrative)
         }
     }
 
