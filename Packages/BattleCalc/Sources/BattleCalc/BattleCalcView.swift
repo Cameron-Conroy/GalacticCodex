@@ -97,7 +97,7 @@ public struct BattleCalcView: View {
                 HStack {
                     Text(units.wrappedValue[index].name)
                         .font(.subheadline)
-                        .frame(width: 90, alignment: .leading)
+                        .frame(width: 70, alignment: .leading)
                     Spacer()
                     Text("\(units.wrappedValue[index].count)")
                         .monospacedDigit()
@@ -112,7 +112,8 @@ public struct BattleCalcView: View {
                 }
             }
         }
-        .padding()
+        .padding(.vertical, 8)
+        .padding(.horizontal, 6)
         .background(.quaternary.opacity(0.3))
         .clipShape(RoundedRectangle(cornerRadius: 12))
     }

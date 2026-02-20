@@ -13,37 +13,41 @@ struct GalacticCodexApp: App {
 
     var body: some Scene {
         WindowGroup {
-            TabView {
-                CodexView()
-                    .tabItem {
-                        Label("Codex", systemImage: "book.closed.fill")
-                    }
+            ZStack {
+                TabView {
+                    CodexView()
+                        .tabItem {
+                            Label("Codex", systemImage: "book.closed.fill")
+                        }
 
-                DraftLabView()
-                    .tabItem {
-                        Label("Draft Lab", systemImage: "dice.fill")
-                    }
+                    DraftLabView()
+                        .tabItem {
+                            Label("Draft Lab", systemImage: "dice.fill")
+                        }
 
-                BattleCalcView()
-                    .tabItem {
-                        Label("Battle Calc", systemImage: "bolt.shield.fill")
-                    }
+                    BattleCalcView()
+                        .tabItem {
+                            Label("Battle Calc", systemImage: "bolt.shield.fill")
+                        }
 
-                ChronicleWrapper()
-                    .tabItem {
-                        Label("Chronicle", systemImage: "scroll.fill")
-                    }
+                    ChronicleWrapper()
+                        .tabItem {
+                            Label("Chronicle", systemImage: "scroll.fill")
+                        }
 
-                AdvisorView()
-                    .tabItem {
-                        Label("Advisor", systemImage: "bubble.left.and.text.bubble.right.fill")
-                    }
-            }
-            .environmentObject(dataStore)
-            .preferredColorScheme(.dark)
-            .tint(.cyan)
-            .task {
-                dataStore.load()
+                    AdvisorView()
+                        .tabItem {
+                            Label("Advisor", systemImage: "bubble.left.and.text.bubble.right.fill")
+                        }
+                }
+                .environmentObject(dataStore)
+                .preferredColorScheme(.dark)
+                .tint(.cyan)
+                .task {
+                    dataStore.load()
+                }
+
+                SplashView()
             }
         }
         .modelContainer(for: PersistedSession.self)

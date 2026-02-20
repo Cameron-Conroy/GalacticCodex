@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "splash-03-war-coming.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

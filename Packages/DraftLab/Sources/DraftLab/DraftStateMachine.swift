@@ -1,4 +1,5 @@
 import Foundation
+import Observation
 
 /// The current phase of a ban/pick draft.
 public enum DraftPhase: Equatable {
@@ -9,11 +10,12 @@ public enum DraftPhase: Equatable {
 }
 
 /// State machine for the ban/pick faction draft flow.
-public final class DraftStateMachine: ObservableObject {
-    @Published public var phase: DraftPhase = .setup
-    @Published public var availableFactions: [String] = []
-    @Published public var bannedFactions: [String] = []
-    @Published public var picks: [String: String] = [:]
+@Observable
+public final class DraftStateMachine {
+    public var phase: DraftPhase = .setup
+    public var availableFactions: [String] = []
+    public var bannedFactions: [String] = []
+    public var picks: [String: String] = [:]
 
     public let playerNames: [String]
     public let bansPerPlayer: Int
