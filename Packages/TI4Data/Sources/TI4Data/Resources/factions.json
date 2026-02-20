@@ -1,0 +1,327 @@
+[
+  {
+    "id": "arborec",
+    "name": "The Arborec",
+    "expansion": "base",
+    "commodities": 3,
+    "starting_tech": ["Magen Defense Grid"],
+    "abilities": [
+      { "name": "Mitosis", "description": "During the Status Phase, place 1 infantry from your reinforcements on any planet you control." }
+    ],
+    "promissory_note": "Stymie",
+    "flagship": "Duha Menaimon"
+  },
+  {
+    "id": "letnev",
+    "name": "The Barony of Letnev",
+    "expansion": "base",
+    "commodities": 2,
+    "starting_tech": ["Antimass Deflectors", "Plasma Scoring"],
+    "abilities": [
+      { "name": "Munitions Reserves", "description": "At the start of each round of space combat, you may spend 2 trade goods; you may reroll any number of your dice during that combat round." },
+      { "name": "Armada", "description": "The maximum number of non-fighter ships you can have in each system is equal to 2 more than the number of tokens in your fleet pool." }
+    ],
+    "promissory_note": "War Funding",
+    "flagship": "Arc Secundus"
+  },
+  {
+    "id": "saar",
+    "name": "The Clan of Saar",
+    "expansion": "base",
+    "commodities": 3,
+    "starting_tech": ["Antimass Deflectors"],
+    "abilities": [
+      { "name": "Scavenge", "description": "After you gain control of a planet, gain 1 trade good." },
+      { "name": "Nomadic", "description": "You can score objectives even if you do not control the planets in your home system." }
+    ],
+    "promissory_note": "Ragh's Call",
+    "flagship": "Son of Ragh"
+  },
+  {
+    "id": "muaat",
+    "name": "The Embers of Muaat",
+    "expansion": "base",
+    "commodities": 4,
+    "starting_tech": ["Plasma Scoring"],
+    "abilities": [
+      { "name": "Star Forge", "description": "ACTION: Spend 1 token from your strategy pool to place either 2 fighters or 1 destroyer from your reinforcements in a system that contains 1 or more of your war suns." }
+    ],
+    "promissory_note": "Fires of the Gashlai",
+    "flagship": "The Inferno"
+  },
+  {
+    "id": "hacan",
+    "name": "The Emirates of Hacan",
+    "expansion": "base",
+    "commodities": 6,
+    "starting_tech": ["Antimass Deflectors", "Sarween Tools"],
+    "abilities": [
+      { "name": "Masters of Trade", "description": "You do not need to spend a command token to resolve the secondary ability of the Trade strategy card." },
+      { "name": "Guild Ships", "description": "You can negotiate transactions with players who are not your neighbor." }
+    ],
+    "promissory_note": "Trade Convoys",
+    "flagship": "Wrath of Kenara"
+  },
+  {
+    "id": "sol",
+    "name": "The Federation of Sol",
+    "expansion": "base",
+    "commodities": 4,
+    "starting_tech": ["Antimass Deflectors", "Neural Motivator"],
+    "abilities": [
+      { "name": "Orbital Drop", "description": "ACTION: Spend 1 token from your strategy pool to place 2 infantry from your reinforcements on any planet you control." },
+      { "name": "Versatile", "description": "When you gain command tokens during the Status Phase, gain 1 additional command token." }
+    ],
+    "promissory_note": "Military Support",
+    "flagship": "Genesis"
+  },
+  {
+    "id": "creuss",
+    "name": "The Ghosts of Creuss",
+    "expansion": "base",
+    "commodities": 4,
+    "starting_tech": ["Gravity Drive"],
+    "abilities": [
+      { "name": "Quantum Entanglement", "description": "You treat all systems that contain a wormhole as adjacent to your home system." },
+      { "name": "Slipstream", "description": "Apply +1 to the move value of each of your ships that starts its movement in your home system or in a system that contains a wormhole." }
+    ],
+    "promissory_note": "Creuss Iff",
+    "flagship": "Hil Colish"
+  },
+  {
+    "id": "l1z1x",
+    "name": "The L1Z1X Mindnet",
+    "expansion": "base",
+    "commodities": 2,
+    "starting_tech": ["Neural Motivator", "Plasma Scoring"],
+    "abilities": [
+      { "name": "Assimilate", "description": "When you gain control of a planet that contains another player's structures, replace those structures with your own of the same type." },
+      { "name": "Harrow", "description": "At the start of each ground combat, your dreadnoughts in the space area of that system may use their BOMBARDMENT ability against your opponent's ground forces on that planet." }
+    ],
+    "promissory_note": "Cybernetic Enhancements",
+    "flagship": "0.0.1"
+  },
+  {
+    "id": "mentak",
+    "name": "The Mentak Coalition",
+    "expansion": "base",
+    "commodities": 2,
+    "starting_tech": ["Sarween Tools", "Plasma Scoring"],
+    "abilities": [
+      { "name": "Ambush", "description": "At the start of a round of space combat, you may roll 2 dice. For each result equal to or greater than 9, produce 1 hit; your opponent must assign those hits to non-fighter ships." },
+      { "name": "Pillage", "description": "After 1 of your neighbors gains trade goods or resolves a transaction, you may take 1 of those trade goods or commodities." }
+    ],
+    "promissory_note": "Promise of Protection",
+    "flagship": "Fourth Moon"
+  },
+  {
+    "id": "naalu",
+    "name": "The Naalu Collective",
+    "expansion": "base",
+    "commodities": 3,
+    "starting_tech": ["Neural Motivator", "Sarween Tools"],
+    "abilities": [
+      { "name": "Telepathic", "description": "At the end of the Strategy Phase, place the Naalu '0' token on your strategy card; you are first in initiative order." },
+      { "name": "Foresight", "description": "After another player moves ships into a system that contains 1 or more of your ships, you may place 1 token from your strategy pool in an adjacent system that does not contain another player's ships; move your ships from the active system into that system." }
+    ],
+    "promissory_note": "Gift of Prescience",
+    "flagship": "Matriarch"
+  },
+  {
+    "id": "nekro",
+    "name": "The Nekro Virus",
+    "expansion": "base",
+    "commodities": 3,
+    "starting_tech": [],
+    "abilities": [
+      { "name": "Galactic Threat", "description": "You cannot vote on agendas. Once per agenda phase, after an agenda is revealed, you may predict aloud the outcome of that agenda. If your prediction is correct, gain 1 technology that is owned by a player who voted for the outcome you predicted." },
+      { "name": "Technological Singularity", "description": "Once per combat, after 1 of your opponent's units is destroyed, you may gain 1 technology that is owned by that player. You cannot research technology normally." }
+    ],
+    "promissory_note": "Antivirus",
+    "flagship": "The Alastor"
+  },
+  {
+    "id": "norr",
+    "name": "The Sardakk N'orr",
+    "expansion": "base",
+    "commodities": 3,
+    "starting_tech": [],
+    "abilities": [
+      { "name": "Unrelenting", "description": "Apply +1 to the result of each of your combat rolls." }
+    ],
+    "promissory_note": "Tekklar Legion",
+    "flagship": "C'Morran N'orr"
+  },
+  {
+    "id": "jolnar",
+    "name": "The Universities of Jol-Nar",
+    "expansion": "base",
+    "commodities": 4,
+    "starting_tech": ["Neural Motivator", "Antimass Deflectors", "Sarween Tools", "Plasma Scoring"],
+    "abilities": [
+      { "name": "Fragile", "description": "Apply -1 to the result of each of your combat rolls." },
+      { "name": "Brilliant", "description": "When you spend a command token to resolve the secondary ability of the Technology strategy card, you may resolve the primary ability instead." },
+      { "name": "Analytical", "description": "When you research a technology, you may ignore 1 prerequisite on that technology." }
+    ],
+    "promissory_note": "Research Agreement",
+    "flagship": "J.N.S. Hylarim"
+  },
+  {
+    "id": "winnu",
+    "name": "The Winnu",
+    "expansion": "base",
+    "commodities": 3,
+    "starting_tech": [],
+    "abilities": [
+      { "name": "Blood Ties", "description": "You do not need to spend influence to remove the custodians token from Mecatol Rex." },
+      { "name": "Reclamation", "description": "After you resolve a tactical action in the Mecatol Rex system, you may place 1 PDS or 1 space dock from your reinforcements on Mecatol Rex." }
+    ],
+    "promissory_note": "Acquiescence",
+    "flagship": "Salai Sai Corian"
+  },
+  {
+    "id": "xxcha",
+    "name": "The Xxcha Kingdom",
+    "expansion": "base",
+    "commodities": 4,
+    "starting_tech": ["Graviton Laser System"],
+    "abilities": [
+      { "name": "Peace Accords", "description": "After you resolve the primary or secondary ability of the Diplomacy strategy card, you may gain control of 1 planet that does not contain units and is adjacent to a planet you control." },
+      { "name": "Quash", "description": "After an agenda is revealed, you may spend 1 token from your strategy pool to discard that agenda and reveal 1 agenda from the top of the deck. Players vote on this agenda instead." }
+    ],
+    "promissory_note": "Political Favor",
+    "flagship": "Loncara Ssodu"
+  },
+  {
+    "id": "yin",
+    "name": "The Yin Brotherhood",
+    "expansion": "base",
+    "commodities": 2,
+    "starting_tech": ["Sarween Tools"],
+    "abilities": [
+      { "name": "Indoctrination", "description": "At the start of ground combat, you may spend 2 influence to replace 1 of your opponent's infantry with 1 infantry from your reinforcements." },
+      { "name": "Devotion", "description": "After each space combat round, you may destroy 1 of your cruisers or destroyers in the active system to produce 1 hit against your opponent's ships." }
+    ],
+    "promissory_note": "Greyfire Mutagen",
+    "flagship": "Van Hauge"
+  },
+  {
+    "id": "yssaril",
+    "name": "The Yssaril Tribes",
+    "expansion": "base",
+    "commodities": 3,
+    "starting_tech": ["Neural Motivator"],
+    "abilities": [
+      { "name": "Stall Tactics", "description": "ACTION: Discard 1 action card from your hand." },
+      { "name": "Scheming", "description": "When you draw 1 or more action cards, draw 1 additional action card. Then, choose 1 action card from your hand and place it on the bottom of the action card deck." },
+      { "name": "Crafty", "description": "You can have any number of action cards in your hand. Game effects cannot prevent you from using this ability." }
+    ],
+    "promissory_note": "Spy Net",
+    "flagship": "Y'sia Y'ssrila"
+  },
+  {
+    "id": "argent",
+    "name": "The Argent Flight",
+    "expansion": "pok",
+    "commodities": 3,
+    "starting_tech": ["Neural Motivator", "Sarween Tools"],
+    "abilities": [
+      { "name": "Zeal", "description": "You always vote first during the Agenda Phase. When you cast votes, you may cast additional votes equal to the number of players in the game, including yourself." },
+      { "name": "Raid Formation", "description": "When 1 or more of your units use ANTI-FIGHTER BARRAGE, for each hit produced, you may destroy 1 of your opponent's infantry in the space area of the active system." }
+    ],
+    "promissory_note": "Strike Wing Ambuscade",
+    "flagship": "Quetzecoatl"
+  },
+  {
+    "id": "empyrean",
+    "name": "The Empyrean",
+    "expansion": "pok",
+    "commodities": 4,
+    "starting_tech": ["Dark Energy Tap"],
+    "abilities": [
+      { "name": "Voidborn", "description": "Frontier tokens in systems that contain 1 or more of your ships are not removed after they are explored." },
+      { "name": "Aetherpassage", "description": "After a player activates a system that does not contain any of your ships, you may allow that player to move their ships through systems that contain your ships." }
+    ],
+    "promissory_note": "Blood Pact",
+    "flagship": "Dynamo"
+  },
+  {
+    "id": "mahact",
+    "name": "The Mahact Gene-Sorcerers",
+    "expansion": "pok",
+    "commodities": 3,
+    "starting_tech": ["Bio-Stims", "Predictive Intelligence"],
+    "abilities": [
+      { "name": "Edict", "description": "When you win a combat, place 1 of the losing player's command tokens from their reinforcements into your fleet pool if it is not already there." },
+      { "name": "Genetic Recombination", "description": "You may negotiate transactions with players whose command tokens are in your fleet pool, even if they are not your neighbor." }
+    ],
+    "promissory_note": "Scepter of Dominion",
+    "flagship": "Arvicon Rex"
+  },
+  {
+    "id": "naazrokha",
+    "name": "The Naaz-Rokha Alliance",
+    "expansion": "pok",
+    "commodities": 3,
+    "starting_tech": ["Neural Motivator", "AI Development Algorithm"],
+    "abilities": [
+      { "name": "Fabrication", "description": "ACTION: Either gain 1 relic fragment of any type, or purge 2 of your relic fragments of any type to gain 1 relic." },
+      { "name": "Supercharge", "description": "At the start of a combat round, you may exhaust 1 of your mechs to apply +1 to the result of each of your combat rolls during this combat round." }
+    ],
+    "promissory_note": "Black Market Forgery",
+    "flagship": "Visz El Vansen"
+  },
+  {
+    "id": "nomad",
+    "name": "The Nomad",
+    "expansion": "pok",
+    "commodities": 4,
+    "starting_tech": ["Sling Relay"],
+    "abilities": [
+      { "name": "The Company", "description": "During setup, take the 3 Nomad agent cards; you have 3 agents." },
+      { "name": "Wayfaring", "description": "After you explore a frontier token, you may place 1 mech from your reinforcements on that planet." }
+    ],
+    "promissory_note": "The Cavalry",
+    "flagship": "Memoria"
+  },
+  {
+    "id": "titans",
+    "name": "The Titans of Ul",
+    "expansion": "pok",
+    "commodities": 2,
+    "starting_tech": ["Antimass Deflectors", "Scanlink Drone Network"],
+    "abilities": [
+      { "name": "Terragenesis", "description": "After you explore a planet that does not have a sleeper token, you may place or move 1 sleeper token onto that planet." },
+      { "name": "Awaken", "description": "After you activate a system that contains 1 or more of your sleeper tokens, you may replace each of your sleeper tokens in that system with 1 PDS from your reinforcements." }
+    ],
+    "promissory_note": "Terraform",
+    "flagship": "Ouranos"
+  },
+  {
+    "id": "cabal",
+    "name": "The Vuil'raith Cabal",
+    "expansion": "pok",
+    "commodities": 2,
+    "starting_tech": ["Self Assembly Routines"],
+    "abilities": [
+      { "name": "Devour", "description": "Capture your opponent's non-structure units that are destroyed during combat in a system that contains your units with the DIMENSIONAL TEAR ability." },
+      { "name": "Riftwalkers", "description": "ACTION: Purge 2 of your captured units to research 1 technology." }
+    ],
+    "promissory_note": "Crucible",
+    "flagship": "The Terror Between"
+  },
+  {
+    "id": "keleres",
+    "name": "The Council Keleres",
+    "expansion": "pok",
+    "commodities": 2,
+    "starting_tech": [],
+    "abilities": [
+      { "name": "The Tribunii", "description": "During setup, choose Mentak, Xxcha, or Argent Flight. Take that faction's home system tile and planet cards." },
+      { "name": "Law of the People", "description": "You may exhaust a planet you control to cast additional votes equal to that planet's influence for each law in play." },
+      { "name": "Galactic Threat Analysts", "description": "When 1 or more of your units use SPACE CANNON, you may spend 1 command token from your strategy pool to produce 1 additional hit." }
+    ],
+    "promissory_note": "Keleres Rider",
+    "flagship": "Artemiris"
+  }
+]

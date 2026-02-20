@@ -1,0 +1,852 @@
+[
+  {
+    "id": "tile_01",
+    "tile_number": 1,
+    "type": "home",
+    "planets": [
+      { "id": "nestphar", "name": "Nestphar", "resources": 3, "influence": 2, "trait": null, "specialty": null }
+    ],
+    "anomaly": null,
+    "wormhole": null
+  },
+  {
+    "id": "tile_02",
+    "tile_number": 2,
+    "type": "home",
+    "planets": [
+      { "id": "arc_prime", "name": "Arc Prime", "resources": 4, "influence": 0, "trait": null, "specialty": null },
+      { "id": "wren_terra", "name": "Wren Terra", "resources": 2, "influence": 1, "trait": null, "specialty": null }
+    ],
+    "anomaly": null,
+    "wormhole": null
+  },
+  {
+    "id": "tile_03",
+    "tile_number": 3,
+    "type": "home",
+    "planets": [
+      { "id": "lisis_ii", "name": "Lisis II", "resources": 1, "influence": 0, "trait": null, "specialty": null },
+      { "id": "ragh", "name": "Ragh", "resources": 2, "influence": 1, "trait": null, "specialty": null }
+    ],
+    "anomaly": null,
+    "wormhole": null
+  },
+  {
+    "id": "tile_04",
+    "tile_number": 4,
+    "type": "home",
+    "planets": [
+      { "id": "muaat_planet", "name": "Muaat", "resources": 4, "influence": 1, "trait": null, "specialty": null }
+    ],
+    "anomaly": null,
+    "wormhole": null
+  },
+  {
+    "id": "tile_05",
+    "tile_number": 5,
+    "type": "home",
+    "planets": [
+      { "id": "arretze", "name": "Arretze", "resources": 2, "influence": 0, "trait": null, "specialty": null },
+      { "id": "hercant", "name": "Hercant", "resources": 1, "influence": 1, "trait": null, "specialty": null },
+      { "id": "kamdorn", "name": "Kamdorn", "resources": 0, "influence": 1, "trait": null, "specialty": null }
+    ],
+    "anomaly": null,
+    "wormhole": null
+  },
+  {
+    "id": "tile_06",
+    "tile_number": 6,
+    "type": "home",
+    "planets": [
+      { "id": "jord", "name": "Jord", "resources": 4, "influence": 2, "trait": null, "specialty": null }
+    ],
+    "anomaly": null,
+    "wormhole": null
+  },
+  {
+    "id": "tile_17",
+    "tile_number": 17,
+    "type": "home",
+    "planets": [
+      { "id": "creuss", "name": "Creuss", "resources": 4, "influence": 2, "trait": null, "specialty": null }
+    ],
+    "anomaly": null,
+    "wormhole": "delta"
+  },
+  {
+    "id": "tile_08",
+    "tile_number": 8,
+    "type": "home",
+    "planets": [
+      { "id": "zero_zero_zero", "name": "[0.0.0]", "resources": 5, "influence": 0, "trait": null, "specialty": null }
+    ],
+    "anomaly": null,
+    "wormhole": null
+  },
+  {
+    "id": "tile_09",
+    "tile_number": 9,
+    "type": "home",
+    "planets": [
+      { "id": "moll_primus", "name": "Moll Primus", "resources": 4, "influence": 1, "trait": null, "specialty": null }
+    ],
+    "anomaly": null,
+    "wormhole": null
+  },
+  {
+    "id": "tile_10",
+    "tile_number": 10,
+    "type": "home",
+    "planets": [
+      { "id": "druaa", "name": "Druaa", "resources": 3, "influence": 1, "trait": null, "specialty": null },
+      { "id": "maaluuk", "name": "Maaluuk", "resources": 0, "influence": 2, "trait": null, "specialty": null }
+    ],
+    "anomaly": null,
+    "wormhole": null
+  },
+  {
+    "id": "tile_11",
+    "tile_number": 11,
+    "type": "home",
+    "planets": [
+      { "id": "mordai_ii", "name": "Mordai II", "resources": 4, "influence": 0, "trait": null, "specialty": null }
+    ],
+    "anomaly": null,
+    "wormhole": null
+  },
+  {
+    "id": "tile_12",
+    "tile_number": 12,
+    "type": "home",
+    "planets": [
+      { "id": "trenlak", "name": "Tren'lak", "resources": 1, "influence": 0, "trait": null, "specialty": null },
+      { "id": "quinarra", "name": "Quinarra", "resources": 3, "influence": 1, "trait": null, "specialty": null }
+    ],
+    "anomaly": null,
+    "wormhole": null
+  },
+  {
+    "id": "tile_13",
+    "tile_number": 13,
+    "type": "home",
+    "planets": [
+      { "id": "jol", "name": "Jol", "resources": 1, "influence": 2, "trait": null, "specialty": null },
+      { "id": "nar", "name": "Nar", "resources": 2, "influence": 3, "trait": null, "specialty": null }
+    ],
+    "anomaly": null,
+    "wormhole": null
+  },
+  {
+    "id": "tile_07",
+    "tile_number": 7,
+    "type": "home",
+    "planets": [
+      { "id": "winnu_planet", "name": "Winnu", "resources": 3, "influence": 4, "trait": null, "specialty": null }
+    ],
+    "anomaly": null,
+    "wormhole": null
+  },
+  {
+    "id": "tile_14",
+    "tile_number": 14,
+    "type": "home",
+    "planets": [
+      { "id": "archon_ren", "name": "Archon Ren", "resources": 2, "influence": 3, "trait": null, "specialty": null },
+      { "id": "archon_tau", "name": "Archon Tau", "resources": 1, "influence": 1, "trait": null, "specialty": null }
+    ],
+    "anomaly": null,
+    "wormhole": null
+  },
+  {
+    "id": "tile_15",
+    "tile_number": 15,
+    "type": "home",
+    "planets": [
+      { "id": "darien", "name": "Darien", "resources": 4, "influence": 4, "trait": null, "specialty": null }
+    ],
+    "anomaly": null,
+    "wormhole": null
+  },
+  {
+    "id": "tile_16",
+    "tile_number": 16,
+    "type": "home",
+    "planets": [
+      { "id": "retillion", "name": "Retillion", "resources": 2, "influence": 3, "trait": null, "specialty": null },
+      { "id": "shalloq", "name": "Shalloq", "resources": 1, "influence": 2, "trait": null, "specialty": null }
+    ],
+    "anomaly": null,
+    "wormhole": null
+  },
+  {
+    "id": "tile_18",
+    "tile_number": 18,
+    "type": "mecatolRex",
+    "planets": [
+      { "id": "mecatol_rex", "name": "Mecatol Rex", "resources": 1, "influence": 6, "trait": null, "specialty": null }
+    ],
+    "anomaly": null,
+    "wormhole": null
+  },
+  {
+    "id": "tile_19",
+    "tile_number": 19,
+    "type": "blue",
+    "planets": [
+      { "id": "wellon", "name": "Wellon", "resources": 1, "influence": 2, "trait": "industrial", "specialty": "cybernetic" }
+    ],
+    "anomaly": null,
+    "wormhole": null
+  },
+  {
+    "id": "tile_20",
+    "tile_number": 20,
+    "type": "blue",
+    "planets": [
+      { "id": "vefut_ii", "name": "Vefut II", "resources": 2, "influence": 2, "trait": "hazardous", "specialty": null }
+    ],
+    "anomaly": null,
+    "wormhole": null
+  },
+  {
+    "id": "tile_21",
+    "tile_number": 21,
+    "type": "blue",
+    "planets": [
+      { "id": "thibah", "name": "Thibah", "resources": 1, "influence": 1, "trait": "industrial", "specialty": "propulsion" }
+    ],
+    "anomaly": null,
+    "wormhole": null
+  },
+  {
+    "id": "tile_22",
+    "tile_number": 22,
+    "type": "blue",
+    "planets": [
+      { "id": "tarmann", "name": "Tar'Mann", "resources": 1, "influence": 1, "trait": "industrial", "specialty": "biotic" }
+    ],
+    "anomaly": null,
+    "wormhole": null
+  },
+  {
+    "id": "tile_23",
+    "tile_number": 23,
+    "type": "blue",
+    "planets": [
+      { "id": "saudor", "name": "Saudor", "resources": 2, "influence": 2, "trait": "industrial", "specialty": null }
+    ],
+    "anomaly": null,
+    "wormhole": null
+  },
+  {
+    "id": "tile_24",
+    "tile_number": 24,
+    "type": "blue",
+    "planets": [
+      { "id": "mehar_xull", "name": "Mehar Xull", "resources": 1, "influence": 3, "trait": "hazardous", "specialty": "warfare" }
+    ],
+    "anomaly": null,
+    "wormhole": null
+  },
+  {
+    "id": "tile_25",
+    "tile_number": 25,
+    "type": "blue",
+    "planets": [
+      { "id": "quann", "name": "Quann", "resources": 2, "influence": 1, "trait": "cultural", "specialty": null }
+    ],
+    "anomaly": null,
+    "wormhole": "beta"
+  },
+  {
+    "id": "tile_26",
+    "tile_number": 26,
+    "type": "blue",
+    "planets": [
+      { "id": "lodor", "name": "Lodor", "resources": 3, "influence": 1, "trait": "cultural", "specialty": null }
+    ],
+    "anomaly": null,
+    "wormhole": "alpha"
+  },
+  {
+    "id": "tile_27",
+    "tile_number": 27,
+    "type": "blue",
+    "planets": [
+      { "id": "new_albion", "name": "New Albion", "resources": 1, "influence": 1, "trait": "industrial", "specialty": "biotic" },
+      { "id": "starpoint", "name": "Starpoint", "resources": 3, "influence": 1, "trait": "hazardous", "specialty": null }
+    ],
+    "anomaly": null,
+    "wormhole": null
+  },
+  {
+    "id": "tile_28",
+    "tile_number": 28,
+    "type": "blue",
+    "planets": [
+      { "id": "tequran", "name": "Tequ'ran", "resources": 2, "influence": 0, "trait": "hazardous", "specialty": null },
+      { "id": "torkan", "name": "Torkan", "resources": 0, "influence": 3, "trait": "cultural", "specialty": null }
+    ],
+    "anomaly": null,
+    "wormhole": null
+  },
+  {
+    "id": "tile_29",
+    "tile_number": 29,
+    "type": "blue",
+    "planets": [
+      { "id": "qucenn", "name": "Qucen'n", "resources": 1, "influence": 2, "trait": "industrial", "specialty": null },
+      { "id": "rarron", "name": "Rarron", "resources": 0, "influence": 3, "trait": "cultural", "specialty": null }
+    ],
+    "anomaly": null,
+    "wormhole": null
+  },
+  {
+    "id": "tile_30",
+    "tile_number": 30,
+    "type": "blue",
+    "planets": [
+      { "id": "mellon", "name": "Mellon", "resources": 0, "influence": 2, "trait": "cultural", "specialty": null },
+      { "id": "zohbat", "name": "Zohbat", "resources": 3, "influence": 1, "trait": "hazardous", "specialty": null }
+    ],
+    "anomaly": null,
+    "wormhole": null
+  },
+  {
+    "id": "tile_31",
+    "tile_number": 31,
+    "type": "blue",
+    "planets": [
+      { "id": "lazar", "name": "Lazar", "resources": 1, "influence": 0, "trait": "industrial", "specialty": "cybernetic" },
+      { "id": "sakulag", "name": "Sakulag", "resources": 2, "influence": 1, "trait": "hazardous", "specialty": null }
+    ],
+    "anomaly": null,
+    "wormhole": null
+  },
+  {
+    "id": "tile_32",
+    "tile_number": 32,
+    "type": "blue",
+    "planets": [
+      { "id": "dal_bootha", "name": "Dal Bootha", "resources": 0, "influence": 2, "trait": "cultural", "specialty": null },
+      { "id": "xxehan", "name": "Xxehan", "resources": 1, "influence": 1, "trait": "cultural", "specialty": null }
+    ],
+    "anomaly": null,
+    "wormhole": null
+  },
+  {
+    "id": "tile_33",
+    "tile_number": 33,
+    "type": "blue",
+    "planets": [
+      { "id": "corneeq", "name": "Corneeq", "resources": 1, "influence": 2, "trait": "cultural", "specialty": null },
+      { "id": "resculon", "name": "Resculon", "resources": 2, "influence": 0, "trait": "cultural", "specialty": null }
+    ],
+    "anomaly": null,
+    "wormhole": null
+  },
+  {
+    "id": "tile_34",
+    "tile_number": 34,
+    "type": "blue",
+    "planets": [
+      { "id": "centauri", "name": "Centauri", "resources": 1, "influence": 3, "trait": "cultural", "specialty": null },
+      { "id": "gral", "name": "Gral", "resources": 1, "influence": 1, "trait": "industrial", "specialty": "propulsion" }
+    ],
+    "anomaly": null,
+    "wormhole": null
+  },
+  {
+    "id": "tile_35",
+    "tile_number": 35,
+    "type": "blue",
+    "planets": [
+      { "id": "bereg", "name": "Bereg", "resources": 3, "influence": 1, "trait": "hazardous", "specialty": null },
+      { "id": "lirta_iv", "name": "Lirta IV", "resources": 2, "influence": 3, "trait": "hazardous", "specialty": null }
+    ],
+    "anomaly": null,
+    "wormhole": null
+  },
+  {
+    "id": "tile_36",
+    "tile_number": 36,
+    "type": "blue",
+    "planets": [
+      { "id": "arnor", "name": "Arnor", "resources": 2, "influence": 1, "trait": null, "specialty": null },
+      { "id": "lor", "name": "Lor", "resources": 1, "influence": 2, "trait": null, "specialty": null }
+    ],
+    "anomaly": null,
+    "wormhole": null
+  },
+  {
+    "id": "tile_37",
+    "tile_number": 37,
+    "type": "blue",
+    "planets": [
+      { "id": "arinam", "name": "Arinam", "resources": 1, "influence": 2, "trait": "industrial", "specialty": null },
+      { "id": "meer", "name": "Meer", "resources": 0, "influence": 4, "trait": "hazardous", "specialty": "warfare" }
+    ],
+    "anomaly": null,
+    "wormhole": null
+  },
+  {
+    "id": "tile_38",
+    "tile_number": 38,
+    "type": "blue",
+    "planets": [
+      { "id": "abyz", "name": "Abyz", "resources": 3, "influence": 0, "trait": "hazardous", "specialty": null },
+      { "id": "fria", "name": "Fria", "resources": 2, "influence": 0, "trait": "hazardous", "specialty": null }
+    ],
+    "anomaly": null,
+    "wormhole": null
+  },
+  {
+    "id": "tile_39",
+    "tile_number": 39,
+    "type": "red",
+    "planets": [],
+    "anomaly": "asteroid_field",
+    "wormhole": null
+  },
+  {
+    "id": "tile_40",
+    "tile_number": 40,
+    "type": "red",
+    "planets": [],
+    "anomaly": "supernova",
+    "wormhole": null
+  },
+  {
+    "id": "tile_41",
+    "tile_number": 41,
+    "type": "red",
+    "planets": [],
+    "anomaly": "gravity_rift",
+    "wormhole": null
+  },
+  {
+    "id": "tile_42",
+    "tile_number": 42,
+    "type": "red",
+    "planets": [],
+    "anomaly": "nebula",
+    "wormhole": null
+  },
+  {
+    "id": "tile_43",
+    "tile_number": 43,
+    "type": "red",
+    "planets": [],
+    "anomaly": null,
+    "wormhole": null
+  },
+  {
+    "id": "tile_44",
+    "tile_number": 44,
+    "type": "red",
+    "planets": [],
+    "anomaly": null,
+    "wormhole": null
+  },
+  {
+    "id": "tile_45",
+    "tile_number": 45,
+    "type": "red",
+    "planets": [],
+    "anomaly": null,
+    "wormhole": null
+  },
+  {
+    "id": "tile_46",
+    "tile_number": 46,
+    "type": "red",
+    "planets": [],
+    "anomaly": null,
+    "wormhole": null
+  },
+  {
+    "id": "tile_47",
+    "tile_number": 47,
+    "type": "red",
+    "planets": [],
+    "anomaly": null,
+    "wormhole": null
+  },
+  {
+    "id": "tile_48",
+    "tile_number": 48,
+    "type": "red",
+    "planets": [],
+    "anomaly": null,
+    "wormhole": "alpha"
+  },
+  {
+    "id": "tile_49",
+    "tile_number": 49,
+    "type": "red",
+    "planets": [],
+    "anomaly": null,
+    "wormhole": "beta"
+  },
+  {
+    "id": "tile_50",
+    "tile_number": 50,
+    "type": "red",
+    "planets": [
+      { "id": "mallice", "name": "Mallice", "resources": 0, "influence": 3, "trait": "cultural", "specialty": null }
+    ],
+    "anomaly": null,
+    "wormhole": "gamma"
+  },
+  {
+    "id": "tile_51",
+    "tile_number": 51,
+    "type": "home",
+    "planets": [
+      { "id": "avar", "name": "Avar", "resources": 1, "influence": 1, "trait": null, "specialty": null },
+      { "id": "ylir", "name": "Ylir", "resources": 0, "influence": 2, "trait": null, "specialty": null },
+      { "id": "valk", "name": "Valk", "resources": 2, "influence": 0, "trait": null, "specialty": null }
+    ],
+    "anomaly": null,
+    "wormhole": null
+  },
+  {
+    "id": "tile_52",
+    "tile_number": 52,
+    "type": "home",
+    "planets": [
+      { "id": "the_dark", "name": "The Dark", "resources": 3, "influence": 4, "trait": null, "specialty": null }
+    ],
+    "anomaly": null,
+    "wormhole": null
+  },
+  {
+    "id": "tile_53",
+    "tile_number": 53,
+    "type": "home",
+    "planets": [
+      { "id": "ixth", "name": "Ixth", "resources": 3, "influence": 5, "trait": null, "specialty": null }
+    ],
+    "anomaly": null,
+    "wormhole": null
+  },
+  {
+    "id": "tile_54",
+    "tile_number": 54,
+    "type": "home",
+    "planets": [
+      { "id": "naazir", "name": "Naazir", "resources": 2, "influence": 1, "trait": null, "specialty": null },
+      { "id": "rokha", "name": "Rokha", "resources": 1, "influence": 2, "trait": null, "specialty": null }
+    ],
+    "anomaly": null,
+    "wormhole": null
+  },
+  {
+    "id": "tile_55",
+    "tile_number": 55,
+    "type": "home",
+    "planets": [
+      { "id": "arcturus", "name": "Arcturus", "resources": 4, "influence": 4, "trait": null, "specialty": null }
+    ],
+    "anomaly": null,
+    "wormhole": null
+  },
+  {
+    "id": "tile_56",
+    "tile_number": 56,
+    "type": "home",
+    "planets": [
+      { "id": "elysium", "name": "Elysium", "resources": 4, "influence": 1, "trait": null, "specialty": null }
+    ],
+    "anomaly": null,
+    "wormhole": null
+  },
+  {
+    "id": "tile_57",
+    "tile_number": 57,
+    "type": "home",
+    "planets": [
+      { "id": "acheron", "name": "Acheron", "resources": 4, "influence": 0, "trait": null, "specialty": null }
+    ],
+    "anomaly": null,
+    "wormhole": null
+  },
+  {
+    "id": "tile_59",
+    "tile_number": 59,
+    "type": "blue",
+    "planets": [
+      { "id": "archon_vail", "name": "Archon Vail", "resources": 1, "influence": 3, "trait": "hazardous", "specialty": "propulsion" }
+    ],
+    "anomaly": null,
+    "wormhole": null
+  },
+  {
+    "id": "tile_60",
+    "tile_number": 60,
+    "type": "blue",
+    "planets": [
+      { "id": "perimeter", "name": "Perimeter", "resources": 2, "influence": 1, "trait": "industrial", "specialty": null }
+    ],
+    "anomaly": null,
+    "wormhole": null
+  },
+  {
+    "id": "tile_61",
+    "tile_number": 61,
+    "type": "blue",
+    "planets": [
+      { "id": "ang", "name": "Ang", "resources": 2, "influence": 0, "trait": "industrial", "specialty": "warfare" }
+    ],
+    "anomaly": null,
+    "wormhole": null
+  },
+  {
+    "id": "tile_62",
+    "tile_number": 62,
+    "type": "blue",
+    "planets": [
+      { "id": "semlore", "name": "Sem-Lore", "resources": 3, "influence": 2, "trait": "cultural", "specialty": "cybernetic" }
+    ],
+    "anomaly": null,
+    "wormhole": null
+  },
+  {
+    "id": "tile_63",
+    "tile_number": 63,
+    "type": "blue",
+    "planets": [
+      { "id": "vorhal", "name": "Vorhal", "resources": 0, "influence": 2, "trait": "cultural", "specialty": "biotic" }
+    ],
+    "anomaly": null,
+    "wormhole": null
+  },
+  {
+    "id": "tile_64",
+    "tile_number": 64,
+    "type": "blue",
+    "planets": [
+      { "id": "atlas", "name": "Atlas", "resources": 3, "influence": 1, "trait": "hazardous", "specialty": null }
+    ],
+    "anomaly": null,
+    "wormhole": "beta"
+  },
+  {
+    "id": "tile_65",
+    "tile_number": 65,
+    "type": "blue",
+    "planets": [
+      { "id": "primor", "name": "Primor", "resources": 2, "influence": 1, "trait": "cultural", "specialty": null }
+    ],
+    "anomaly": null,
+    "wormhole": null
+  },
+  {
+    "id": "tile_66",
+    "tile_number": 66,
+    "type": "blue",
+    "planets": [
+      { "id": "hopes_end", "name": "Hope's End", "resources": 3, "influence": 0, "trait": "hazardous", "specialty": null }
+    ],
+    "anomaly": null,
+    "wormhole": null
+  },
+  {
+    "id": "tile_67",
+    "tile_number": 67,
+    "type": "red",
+    "planets": [
+      { "id": "cormund", "name": "Cormund", "resources": 2, "influence": 0, "trait": "hazardous", "specialty": null }
+    ],
+    "anomaly": "gravity_rift",
+    "wormhole": null
+  },
+  {
+    "id": "tile_68",
+    "tile_number": 68,
+    "type": "red",
+    "planets": [
+      { "id": "everra", "name": "Everra", "resources": 3, "influence": 1, "trait": "cultural", "specialty": null }
+    ],
+    "anomaly": "nebula",
+    "wormhole": null
+  },
+  {
+    "id": "tile_69",
+    "tile_number": 69,
+    "type": "blue",
+    "planets": [
+      { "id": "accoen", "name": "Accoen", "resources": 2, "influence": 3, "trait": "industrial", "specialty": null },
+      { "id": "jeol_ir", "name": "Jeol Ir", "resources": 2, "influence": 3, "trait": "industrial", "specialty": null }
+    ],
+    "anomaly": null,
+    "wormhole": null
+  },
+  {
+    "id": "tile_70",
+    "tile_number": 70,
+    "type": "blue",
+    "planets": [
+      { "id": "kraag", "name": "Kraag", "resources": 2, "influence": 1, "trait": "hazardous", "specialty": null },
+      { "id": "siig", "name": "Siig", "resources": 0, "influence": 2, "trait": "hazardous", "specialty": null }
+    ],
+    "anomaly": null,
+    "wormhole": null
+  },
+  {
+    "id": "tile_71",
+    "tile_number": 71,
+    "type": "blue",
+    "planets": [
+      { "id": "bakal", "name": "Ba'kal", "resources": 3, "influence": 2, "trait": "industrial", "specialty": null },
+      { "id": "alio_prima", "name": "Alio Prima", "resources": 1, "influence": 1, "trait": "cultural", "specialty": null }
+    ],
+    "anomaly": null,
+    "wormhole": null
+  },
+  {
+    "id": "tile_72",
+    "tile_number": 72,
+    "type": "blue",
+    "planets": [
+      { "id": "lisis", "name": "Lisis", "resources": 2, "influence": 2, "trait": "industrial", "specialty": null },
+      { "id": "velnor", "name": "Velnor", "resources": 2, "influence": 1, "trait": "hazardous", "specialty": "warfare" }
+    ],
+    "anomaly": null,
+    "wormhole": null
+  },
+  {
+    "id": "tile_73",
+    "tile_number": 73,
+    "type": "blue",
+    "planets": [
+      { "id": "cealdri", "name": "Cealdri", "resources": 0, "influence": 2, "trait": "cultural", "specialty": "cybernetic" },
+      { "id": "xanhact", "name": "Xanhact", "resources": 0, "influence": 1, "trait": "hazardous", "specialty": null }
+    ],
+    "anomaly": null,
+    "wormhole": null
+  },
+  {
+    "id": "tile_74",
+    "tile_number": 74,
+    "type": "blue",
+    "planets": [
+      { "id": "vegamajor", "name": "Vega Major", "resources": 2, "influence": 1, "trait": "cultural", "specialty": null },
+      { "id": "vegaminor", "name": "Vega Minor", "resources": 1, "influence": 2, "trait": "cultural", "specialty": "propulsion" }
+    ],
+    "anomaly": null,
+    "wormhole": null
+  },
+  {
+    "id": "tile_75",
+    "tile_number": 75,
+    "type": "blue",
+    "planets": [
+      { "id": "loki", "name": "Loki", "resources": 1, "influence": 2, "trait": "cultural", "specialty": null },
+      { "id": "abaddon", "name": "Abaddon", "resources": 1, "influence": 0, "trait": "cultural", "specialty": null },
+      { "id": "ashtroth", "name": "Ashtroth", "resources": 2, "influence": 0, "trait": "hazardous", "specialty": null }
+    ],
+    "anomaly": null,
+    "wormhole": null
+  },
+  {
+    "id": "tile_76",
+    "tile_number": 76,
+    "type": "blue",
+    "planets": [
+      { "id": "rigel_i", "name": "Rigel I", "resources": 0, "influence": 1, "trait": "hazardous", "specialty": null },
+      { "id": "rigel_ii", "name": "Rigel II", "resources": 1, "influence": 2, "trait": "industrial", "specialty": "biotic" },
+      { "id": "rigel_iii", "name": "Rigel III", "resources": 1, "influence": 1, "trait": "industrial", "specialty": null }
+    ],
+    "anomaly": null,
+    "wormhole": null
+  },
+  {
+    "id": "tile_77",
+    "tile_number": 77,
+    "type": "red",
+    "planets": [],
+    "anomaly": "nebula",
+    "wormhole": null
+  },
+  {
+    "id": "tile_78",
+    "tile_number": 78,
+    "type": "red",
+    "planets": [],
+    "anomaly": "gravity_rift",
+    "wormhole": null
+  },
+  {
+    "id": "tile_79",
+    "tile_number": 79,
+    "type": "red",
+    "planets": [],
+    "anomaly": "asteroid_field",
+    "wormhole": null
+  },
+  {
+    "id": "tile_80",
+    "tile_number": 80,
+    "type": "red",
+    "planets": [],
+    "anomaly": "supernova",
+    "wormhole": null
+  },
+  {
+    "id": "tile_81",
+    "tile_number": 81,
+    "type": "red",
+    "planets": [],
+    "anomaly": null,
+    "wormhole": "gamma"
+  },
+  {
+    "id": "tile_82",
+    "tile_number": 82,
+    "type": "hyperlane",
+    "planets": [],
+    "anomaly": null,
+    "wormhole": null
+  },
+  {
+    "id": "tile_83",
+    "tile_number": 83,
+    "type": "hyperlane",
+    "planets": [],
+    "anomaly": null,
+    "wormhole": null
+  },
+  {
+    "id": "tile_84",
+    "tile_number": 84,
+    "type": "hyperlane",
+    "planets": [],
+    "anomaly": null,
+    "wormhole": null
+  },
+  {
+    "id": "tile_85",
+    "tile_number": 85,
+    "type": "hyperlane",
+    "planets": [],
+    "anomaly": null,
+    "wormhole": null
+  },
+  {
+    "id": "tile_86",
+    "tile_number": 86,
+    "type": "hyperlane",
+    "planets": [],
+    "anomaly": null,
+    "wormhole": null
+  },
+  {
+    "id": "tile_87",
+    "tile_number": 87,
+    "type": "hyperlane",
+    "planets": [],
+    "anomaly": null,
+    "wormhole": null
+  }
+]

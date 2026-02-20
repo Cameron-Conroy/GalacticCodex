@@ -1,0 +1,666 @@
+[
+  {
+    "id": "neural_motivator",
+    "name": "Neural Motivator",
+    "type": "biotic",
+    "faction": null,
+    "prerequisites": [],
+    "description": "During the Status Phase, draw 2 action cards instead of 1."
+  },
+  {
+    "id": "psychoarchaeology",
+    "name": "Psychoarchaeology",
+    "type": "biotic",
+    "faction": null,
+    "prerequisites": [],
+    "description": "You can use technology specialties on planets you control without exhausting them to satisfy prerequisites. After you explore a planet, you may place 1 infantry from your reinforcements on that planet."
+  },
+  {
+    "id": "dacxive_animators",
+    "name": "Dacxive Animators",
+    "type": "biotic",
+    "faction": null,
+    "prerequisites": ["biotic"],
+    "description": "After you win a ground combat, you may place 1 infantry from your reinforcements on that planet."
+  },
+  {
+    "id": "bio_stims",
+    "name": "Bio-Stims",
+    "type": "biotic",
+    "faction": null,
+    "prerequisites": ["biotic"],
+    "description": "You may exhaust this card at the end of your turn to ready 1 of your other technologies."
+  },
+  {
+    "id": "hyper_metabolism",
+    "name": "Hyper Metabolism",
+    "type": "biotic",
+    "faction": null,
+    "prerequisites": ["biotic", "biotic"],
+    "description": "During the Status Phase, gain 3 command tokens instead of 2."
+  },
+  {
+    "id": "x89_bacterial_weapon",
+    "name": "X-89 Bacterial Weapon",
+    "type": "biotic",
+    "faction": null,
+    "prerequisites": ["biotic", "biotic"],
+    "description": "ACTION: Exhaust this card and choose 1 planet in a system that contains 1 or more of your ships that have BOMBARDMENT; destroy all infantry on that planet."
+  },
+  {
+    "id": "plasma_scoring",
+    "name": "Plasma Scoring",
+    "type": "warfare",
+    "faction": null,
+    "prerequisites": [],
+    "description": "When 1 or more of your units use BOMBARDMENT or SPACE CANNON, 1 of those units may roll 1 additional die."
+  },
+  {
+    "id": "ai_development_algorithm",
+    "name": "AI Development Algorithm",
+    "type": "warfare",
+    "faction": null,
+    "prerequisites": [],
+    "description": "When you research a unit upgrade technology, you may exhaust this card to ignore any 1 prerequisite on that technology."
+  },
+  {
+    "id": "magen_defense_grid",
+    "name": "Magen Defense Grid",
+    "type": "warfare",
+    "faction": null,
+    "prerequisites": ["warfare"],
+    "description": "At the start of ground combat on a planet that contains 1 or more of your structures, you may produce 1 hit against your opponent's ground forces on that planet."
+  },
+  {
+    "id": "self_assembly_routines",
+    "name": "Self Assembly Routines",
+    "type": "warfare",
+    "faction": null,
+    "prerequisites": ["warfare"],
+    "description": "After a player gains control of a planet, you may exhaust this card to place 1 mech from your reinforcements on that planet."
+  },
+  {
+    "id": "duranium_armor",
+    "name": "Duranium Armor",
+    "type": "warfare",
+    "faction": null,
+    "prerequisites": ["warfare", "warfare"],
+    "description": "During each combat round, after you assign hits to your units, repair 1 of your damaged units that did not just sustain damage during this combat round."
+  },
+  {
+    "id": "assault_cannon",
+    "name": "Assault Cannon",
+    "type": "warfare",
+    "faction": null,
+    "prerequisites": ["warfare", "warfare"],
+    "description": "At the start of a round of space combat in a system that contains 3 or more of your non-fighter ships, you may destroy 1 of your opponent's non-fighter ships."
+  },
+  {
+    "id": "antimass_deflectors",
+    "name": "Antimass Deflectors",
+    "type": "propulsion",
+    "faction": null,
+    "prerequisites": [],
+    "description": "Your ships can move into and through systems that contain anomalies. When other players' units use SPACE CANNON against your units, apply -1 to each die roll."
+  },
+  {
+    "id": "dark_energy_tap",
+    "name": "Dark Energy Tap",
+    "type": "propulsion",
+    "faction": null,
+    "prerequisites": [],
+    "description": "After you perform a tactical action in a system that contains a frontier token, if you have 1 or more ships in that system, explore that frontier token."
+  },
+  {
+    "id": "gravity_drive",
+    "name": "Gravity Drive",
+    "type": "propulsion",
+    "faction": null,
+    "prerequisites": ["propulsion"],
+    "description": "After you activate a system, apply +1 to the move value of 1 of your ships during this tactical action."
+  },
+  {
+    "id": "sling_relay",
+    "name": "Sling Relay",
+    "type": "propulsion",
+    "faction": null,
+    "prerequisites": ["propulsion"],
+    "description": "ACTION: Exhaust this card to produce 1 ship in any system that contains one of your space docks."
+  },
+  {
+    "id": "fleet_logistics",
+    "name": "Fleet Logistics",
+    "type": "propulsion",
+    "faction": null,
+    "prerequisites": ["propulsion", "propulsion"],
+    "description": "During each of your turns of the Action Phase, you may perform 2 actions instead of 1."
+  },
+  {
+    "id": "light_wave_deflector",
+    "name": "Light/Wave Deflector",
+    "type": "propulsion",
+    "faction": null,
+    "prerequisites": ["propulsion", "propulsion"],
+    "description": "Your ships can move through systems that contain other players' ships."
+  },
+  {
+    "id": "sarween_tools",
+    "name": "Sarween Tools",
+    "type": "cybernetic",
+    "faction": null,
+    "prerequisites": [],
+    "description": "When 1 or more of your units use PRODUCTION, reduce the combined cost of the produced units by 1."
+  },
+  {
+    "id": "scanlink_drone_network",
+    "name": "Scanlink Drone Network",
+    "type": "cybernetic",
+    "faction": null,
+    "prerequisites": [],
+    "description": "When you activate a system, you may explore 1 planet in that system that contains 1 or more of your units."
+  },
+  {
+    "id": "graviton_laser_system",
+    "name": "Graviton Laser System",
+    "type": "cybernetic",
+    "faction": null,
+    "prerequisites": ["cybernetic"],
+    "description": "You may exhaust this card before 1 or more of your units use SPACE CANNON; hits produced by those units must be assigned to non-fighter ships if able."
+  },
+  {
+    "id": "predictive_intelligence",
+    "name": "Predictive Intelligence",
+    "type": "cybernetic",
+    "faction": null,
+    "prerequisites": ["cybernetic"],
+    "description": "At the end of your turn, you may exhaust this card to redistribute your command tokens."
+  },
+  {
+    "id": "transit_diodes",
+    "name": "Transit Diodes",
+    "type": "cybernetic",
+    "faction": null,
+    "prerequisites": ["cybernetic", "cybernetic"],
+    "description": "You may exhaust this card at the start of your turn during the Action Phase to place up to 4 infantry from your reinforcements on 1 or more planets you control."
+  },
+  {
+    "id": "integrated_economy",
+    "name": "Integrated Economy",
+    "type": "cybernetic",
+    "faction": null,
+    "prerequisites": ["cybernetic", "cybernetic"],
+    "description": "After you gain control of a planet, you may produce any number of units on that planet, spending resources as normal."
+  },
+  {
+    "id": "carrier_ii",
+    "name": "Carrier II",
+    "type": "unitUpgrade",
+    "faction": null,
+    "prerequisites": ["propulsion", "propulsion"],
+    "description": "Improved carrier with SUSTAIN DAMAGE. Cost 3, Move 2, Capacity 6."
+  },
+  {
+    "id": "cruiser_ii",
+    "name": "Cruiser II",
+    "type": "unitUpgrade",
+    "faction": null,
+    "prerequisites": ["cybernetic", "cybernetic", "warfare"],
+    "description": "Improved cruiser with increased combat and capacity. Cost 2, Move 3, Combat 6, Capacity 1."
+  },
+  {
+    "id": "destroyer_ii",
+    "name": "Destroyer II",
+    "type": "unitUpgrade",
+    "faction": null,
+    "prerequisites": ["warfare", "warfare"],
+    "description": "Improved destroyer with enhanced ANTI-FIGHTER BARRAGE. Cost 1, Move 2, Combat 8, AFB 6 (x3)."
+  },
+  {
+    "id": "dreadnought_ii",
+    "name": "Dreadnought II",
+    "type": "unitUpgrade",
+    "faction": null,
+    "prerequisites": ["propulsion", "propulsion", "cybernetic"],
+    "description": "Improved dreadnought with increased movement. Cost 4, Move 2, Combat 5, Capacity 1, SUSTAIN DAMAGE, BOMBARDMENT 5."
+  },
+  {
+    "id": "fighter_ii",
+    "name": "Fighter II",
+    "type": "unitUpgrade",
+    "faction": null,
+    "prerequisites": ["biotic", "biotic"],
+    "description": "Improved fighter that can move independently. Cost 1 (x2), Move 2, Combat 8."
+  },
+  {
+    "id": "infantry_ii",
+    "name": "Infantry II",
+    "type": "unitUpgrade",
+    "faction": null,
+    "prerequisites": ["biotic", "biotic"],
+    "description": "Improved infantry with better combat value. Cost 1 (x2), Combat 7."
+  },
+  {
+    "id": "pds_ii",
+    "name": "PDS II",
+    "type": "unitUpgrade",
+    "faction": null,
+    "prerequisites": ["cybernetic", "warfare"],
+    "description": "Improved PDS with SPACE CANNON OFFENSE and increased range. SPACE CANNON 5, can fire into adjacent systems."
+  },
+  {
+    "id": "space_dock_ii",
+    "name": "Space Dock II",
+    "type": "unitUpgrade",
+    "faction": null,
+    "prerequisites": ["cybernetic", "cybernetic"],
+    "description": "Improved space dock with increased production. PRODUCTION 4."
+  },
+  {
+    "id": "war_sun_tech",
+    "name": "War Sun",
+    "type": "unitUpgrade",
+    "faction": null,
+    "prerequisites": ["warfare", "warfare", "warfare", "cybernetic"],
+    "description": "Allows production of war suns. Cost 12, Move 2, Combat 3 (x3), Capacity 6, SUSTAIN DAMAGE, BOMBARDMENT 3 (x3)."
+  },
+  {
+    "id": "bioplasmosis",
+    "name": "Bioplasmosis",
+    "type": "biotic",
+    "faction": "arborec",
+    "prerequisites": ["biotic"],
+    "description": "At the end of the Status Phase, you may remove any number of infantry from planets you control and place them on 1 or more planets you control in the same or adjacent systems."
+  },
+  {
+    "id": "letani_warrior_ii",
+    "name": "Letani Warrior II",
+    "type": "unitUpgrade",
+    "faction": "arborec",
+    "prerequisites": ["biotic", "biotic"],
+    "description": "After this unit is destroyed, roll 1 die. If the result is 6 or greater, place the unit on your faction sheet. At the start of your next turn, place each unit on your faction sheet on a planet you control in your home system."
+  },
+  {
+    "id": "l4_disruptors",
+    "name": "L4 Disruptors",
+    "type": "cybernetic",
+    "faction": "letnev",
+    "prerequisites": ["cybernetic"],
+    "description": "During an invasion in a system that contains your units, your opponent cannot use SPACE CANNON against your units."
+  },
+  {
+    "id": "non_euclidean_shielding",
+    "name": "Non-Euclidean Shielding",
+    "type": "warfare",
+    "faction": "letnev",
+    "prerequisites": ["warfare", "warfare"],
+    "description": "When 1 of your units uses SUSTAIN DAMAGE, cancel 2 hits instead of 1."
+  },
+  {
+    "id": "chaos_mapping",
+    "name": "Chaos Mapping",
+    "type": "propulsion",
+    "faction": "saar",
+    "prerequisites": ["propulsion"],
+    "description": "Other players cannot activate asteroid fields that contain 1 or more of your ships. At the start of your turn, you may produce 1 unit in a system that contains your space docks."
+  },
+  {
+    "id": "floating_factory_ii",
+    "name": "Floating Factory II",
+    "type": "unitUpgrade",
+    "faction": "saar",
+    "prerequisites": ["cybernetic", "cybernetic"],
+    "description": "Improved floating factory. PRODUCTION 5, Move 1, Capacity 5. This unit is placed in a space area instead of on a planet."
+  },
+  {
+    "id": "magmus_reactor",
+    "name": "Magmus Reactor",
+    "type": "warfare",
+    "faction": "muaat",
+    "prerequisites": ["warfare", "warfare"],
+    "description": "Your ships can move into supernova systems. After 1 of your units uses SUSTAIN DAMAGE, you may produce 1 infantry in that system's space area or on a planet in that system."
+  },
+  {
+    "id": "prototype_war_sun_ii",
+    "name": "Prototype War Sun II",
+    "type": "unitUpgrade",
+    "faction": "muaat",
+    "prerequisites": ["warfare", "warfare", "warfare", "cybernetic"],
+    "description": "Improved war sun. Cost 10, Move 3, Combat 3 (x3), Capacity 6, SUSTAIN DAMAGE, BOMBARDMENT 3 (x3)."
+  },
+  {
+    "id": "production_biomes",
+    "name": "Production Biomes",
+    "type": "biotic",
+    "faction": "hacan",
+    "prerequisites": ["biotic", "biotic"],
+    "description": "ACTION: Exhaust this card and spend 1 token from your strategy pool to gain 4 trade goods and choose 1 other player; that player gains 2 trade goods."
+  },
+  {
+    "id": "quantum_datahub_node",
+    "name": "Quantum Datahub Node",
+    "type": "cybernetic",
+    "faction": "hacan",
+    "prerequisites": ["cybernetic", "cybernetic", "cybernetic"],
+    "description": "At the end of the Strategy Phase, you may spend 1 token from your strategy pool to swap 1 of your strategy cards with 1 of another player's strategy cards."
+  },
+  {
+    "id": "advanced_carrier_ii",
+    "name": "Advanced Carrier II",
+    "type": "unitUpgrade",
+    "faction": "sol",
+    "prerequisites": ["propulsion", "propulsion"],
+    "description": "Improved carrier. Cost 3, Move 2, Capacity 8, SUSTAIN DAMAGE."
+  },
+  {
+    "id": "spec_ops_ii",
+    "name": "Spec Ops II",
+    "type": "unitUpgrade",
+    "faction": "sol",
+    "prerequisites": ["biotic", "biotic"],
+    "description": "Improved infantry. Cost 1 (x2), Combat 6. After this unit is destroyed, roll 1 die. If the result is 5 or greater, place the unit on your faction sheet to be deployed later."
+  },
+  {
+    "id": "dimensional_splicer",
+    "name": "Dimensional Splicer",
+    "type": "propulsion",
+    "faction": "creuss",
+    "prerequisites": ["propulsion"],
+    "description": "At the start of a space combat in a system that contains a wormhole and 1 or more of your ships, you may produce 1 hit against your opponent's ships."
+  },
+  {
+    "id": "wormhole_generator",
+    "name": "Wormhole Generator",
+    "type": "propulsion",
+    "faction": "creuss",
+    "prerequisites": ["propulsion", "propulsion"],
+    "description": "At the start of the Status Phase, place or move a Creuss wormhole token into either a system that contains a planet you control or a non-home system that does not contain another player's ships."
+  },
+  {
+    "id": "inheritance_systems",
+    "name": "Inheritance Systems",
+    "type": "cybernetic",
+    "faction": "l1z1x",
+    "prerequisites": ["cybernetic", "cybernetic"],
+    "description": "You may exhaust this card and spend 2 resources when you research a technology; ignore all of that technology's prerequisites."
+  },
+  {
+    "id": "super_dreadnought_ii",
+    "name": "Super Dreadnought II",
+    "type": "unitUpgrade",
+    "faction": "l1z1x",
+    "prerequisites": ["propulsion", "propulsion", "cybernetic"],
+    "description": "Improved dreadnought. Cost 4, Move 2, Combat 4, Capacity 2, SUSTAIN DAMAGE, BOMBARDMENT 4."
+  },
+  {
+    "id": "mirror_computing",
+    "name": "Mirror Computing",
+    "type": "cybernetic",
+    "faction": "mentak",
+    "prerequisites": ["cybernetic", "cybernetic", "cybernetic"],
+    "description": "When you spend trade goods, each trade good is worth 2 resources or 2 influence instead of 1."
+  },
+  {
+    "id": "salvage_operations",
+    "name": "Salvage Operations",
+    "type": "cybernetic",
+    "faction": "mentak",
+    "prerequisites": ["cybernetic", "cybernetic"],
+    "description": "After you win or lose a space combat, gain 1 trade good; if you won, you may also produce 1 ship in that system of any ship type that was destroyed during the combat."
+  },
+  {
+    "id": "neuroglaive",
+    "name": "Neuroglaive",
+    "type": "biotic",
+    "faction": "naalu",
+    "prerequisites": ["biotic", "biotic", "biotic"],
+    "description": "After another player activates a system that contains 1 or more of your ships, that player removes 1 token from their fleet pool and places it in their reinforcements."
+  },
+  {
+    "id": "hybrid_crystal_fighter_ii",
+    "name": "Hybrid Crystal Fighter II",
+    "type": "unitUpgrade",
+    "faction": "naalu",
+    "prerequisites": ["biotic", "biotic"],
+    "description": "Improved fighter. Cost 1 (x2), Move 2, Combat 7. This unit may move without being transported."
+  },
+  {
+    "id": "valefar_assimilator_x",
+    "name": "Valefar Assimilator X",
+    "type": "cybernetic",
+    "faction": "nekro",
+    "prerequisites": [],
+    "description": "When you would gain a technology, you may instead place this card on a non-faction technology owned by another player; you now have that technology."
+  },
+  {
+    "id": "valefar_assimilator_y",
+    "name": "Valefar Assimilator Y",
+    "type": "cybernetic",
+    "faction": "nekro",
+    "prerequisites": [],
+    "description": "When you would gain a technology, you may instead place this card on a non-faction technology owned by another player; you now have that technology."
+  },
+  {
+    "id": "exotrireme_ii",
+    "name": "Exotrireme II",
+    "type": "unitUpgrade",
+    "faction": "norr",
+    "prerequisites": ["warfare", "warfare", "cybernetic"],
+    "description": "Improved dreadnought. Cost 4, Move 2, Combat 4, Capacity 1, SUSTAIN DAMAGE, BOMBARDMENT 4. After a round of space combat, you may destroy this unit to destroy up to 2 of your opponent's ships."
+  },
+  {
+    "id": "valkyrie_particle_weave",
+    "name": "Valkyrie Particle Weave",
+    "type": "warfare",
+    "faction": "norr",
+    "prerequisites": ["warfare", "warfare"],
+    "description": "After making combat rolls during a round of ground combat, if your opponent produced 1 or more hits, you produce 1 additional hit."
+  },
+  {
+    "id": "e_res_siphons",
+    "name": "E-Res Siphons",
+    "type": "cybernetic",
+    "faction": "jolnar",
+    "prerequisites": ["cybernetic", "cybernetic"],
+    "description": "After another player activates a system that contains 1 or more of your ships, gain 4 trade goods."
+  },
+  {
+    "id": "spacial_conduit_cylinder",
+    "name": "Spacial Conduit Cylinder",
+    "type": "propulsion",
+    "faction": "jolnar",
+    "prerequisites": ["propulsion", "propulsion"],
+    "description": "You may exhaust this card after you activate a system that contains 1 or more of your units; that system is adjacent to all other systems that contain 1 or more of your units during this tactical action."
+  },
+  {
+    "id": "hegemonic_trade_policy",
+    "name": "Hegemonic Trade Policy",
+    "type": "cybernetic",
+    "faction": "winnu",
+    "prerequisites": ["cybernetic", "cybernetic"],
+    "description": "Exhaust this card when 1 or more of your units use PRODUCTION; swap the resource and influence values of 1 planet you control for this use of PRODUCTION."
+  },
+  {
+    "id": "lazax_gate_folding",
+    "name": "Lazax Gate Folding",
+    "type": "propulsion",
+    "faction": "winnu",
+    "prerequisites": ["propulsion", "propulsion"],
+    "description": "During your tactical actions, if you do not control Mecatol Rex, treat Mecatol Rex's system as if it contained both an alpha and beta wormhole. ACTION: If you control Mecatol Rex, exhaust this card to place 1 infantry from your reinforcements on Mecatol Rex."
+  },
+  {
+    "id": "instinct_training",
+    "name": "Instinct Training",
+    "type": "biotic",
+    "faction": "xxcha",
+    "prerequisites": ["biotic"],
+    "description": "You may exhaust this card and spend 1 token from your strategy pool when another player plays an action card; cancel that action card."
+  },
+  {
+    "id": "nullification_field",
+    "name": "Nullification Field",
+    "type": "cybernetic",
+    "faction": "xxcha",
+    "prerequisites": ["cybernetic", "cybernetic"],
+    "description": "After another player activates a system that is adjacent to 1 or more of your systems that contain your ships, you may spend 1 token from your strategy pool; return the command token of the activating player and they cannot activate that system this turn."
+  },
+  {
+    "id": "impulse_core",
+    "name": "Impulse Core",
+    "type": "cybernetic",
+    "faction": "yin",
+    "prerequisites": ["cybernetic", "cybernetic"],
+    "description": "At the start of a space combat, you may destroy 1 of your cruisers or destroyers in the active system to produce 1 hit against your opponent's ships; that hit must be assigned to a non-fighter ship if able."
+  },
+  {
+    "id": "yin_spinner",
+    "name": "Yin Spinner",
+    "type": "biotic",
+    "faction": "yin",
+    "prerequisites": ["biotic", "biotic"],
+    "description": "After you produce 1 or more units, place up to 2 infantry from your reinforcements on any planet you control."
+  },
+  {
+    "id": "mageon_implants",
+    "name": "Mageon Implants",
+    "type": "biotic",
+    "faction": "yssaril",
+    "prerequisites": ["biotic", "biotic", "biotic"],
+    "description": "ACTION: Exhaust this card to look at another player's hand of action cards. Choose 1 of those cards and add it to your hand."
+  },
+  {
+    "id": "transparasteel_plating",
+    "name": "Transparasteel Plating",
+    "type": "biotic",
+    "faction": "yssaril",
+    "prerequisites": ["biotic"],
+    "description": "During your turn of the Action Phase, players that have passed cannot play action cards."
+  },
+  {
+    "id": "aerie_hololattice",
+    "name": "Aerie Hololattice",
+    "type": "cybernetic",
+    "faction": "argent",
+    "prerequisites": ["cybernetic"],
+    "description": "Other players cannot use ANTI-FIGHTER BARRAGE against your units. After you win a space combat, place up to 2 fighters from your reinforcements in that system."
+  },
+  {
+    "id": "strike_wing_alpha_ii",
+    "name": "Strike Wing Alpha II",
+    "type": "unitUpgrade",
+    "faction": "argent",
+    "prerequisites": ["warfare", "warfare"],
+    "description": "Improved destroyer. Cost 1, Move 2, Combat 7, Capacity 1, AFB 6 (x3). This unit may transport 1 infantry or 1 mech."
+  },
+  {
+    "id": "dark_veil",
+    "name": "Dark Veil",
+    "type": "propulsion",
+    "faction": "empyrean",
+    "prerequisites": ["propulsion"],
+    "description": "After you activate a system, you may spend 1 strategy token. If so, other players cannot see the ships you have in that system until combat begins."
+  },
+  {
+    "id": "aetherstream",
+    "name": "Aetherstream",
+    "type": "propulsion",
+    "faction": "empyrean",
+    "prerequisites": ["propulsion", "propulsion"],
+    "description": "Your units may move through systems that contain other players' ships and treat those systems as if they contained no anomalies."
+  },
+  {
+    "id": "genetic_recombination_tech",
+    "name": "Genetic Recombination",
+    "type": "biotic",
+    "faction": "mahact",
+    "prerequisites": ["biotic"],
+    "description": "You may exhaust this card before a player casts votes. That player must cast at least 1 vote for an outcome of your choice or abstain."
+  },
+  {
+    "id": "crimson_legionnaire_ii",
+    "name": "Crimson Legionnaire II",
+    "type": "unitUpgrade",
+    "faction": "mahact",
+    "prerequisites": ["biotic", "biotic", "cybernetic"],
+    "description": "Improved infantry. Cost 1 (x2), Combat 6. After this unit is destroyed, gain 1 commodity or convert 1 of your commodities to a trade good."
+  },
+  {
+    "id": "pre_fab_arcologies",
+    "name": "Pre-Fab Arcologies",
+    "type": "biotic",
+    "faction": "naazrokha",
+    "prerequisites": ["biotic", "biotic"],
+    "description": "After you explore a planet, you may place 1 mech from your reinforcements on that planet."
+  },
+  {
+    "id": "supercharge_tech",
+    "name": "Supercharge",
+    "type": "cybernetic",
+    "faction": "naazrokha",
+    "prerequisites": ["cybernetic", "cybernetic", "cybernetic"],
+    "description": "At the start of a combat round, you may apply +1 to the result of each of your combat rolls during that round for each of your mechs in the combat."
+  },
+  {
+    "id": "temporal_command_suite",
+    "name": "Temporal Command Suite",
+    "type": "cybernetic",
+    "faction": "nomad",
+    "prerequisites": ["cybernetic"],
+    "description": "After any player's agent is exhausted, you may exhaust 1 of your agents to resolve that agent's ability as if it were your own."
+  },
+  {
+    "id": "memoria_ii",
+    "name": "Memoria II",
+    "type": "unitUpgrade",
+    "faction": "nomad",
+    "prerequisites": ["propulsion", "propulsion", "cybernetic"],
+    "description": "Improved flagship. Cost 8, Move 2, Combat 5, Capacity 6, SUSTAIN DAMAGE."
+  },
+  {
+    "id": "saturn_engine_ii",
+    "name": "Saturn Engine II",
+    "type": "unitUpgrade",
+    "faction": "titans",
+    "prerequisites": ["propulsion", "cybernetic"],
+    "description": "Improved cruiser. Cost 2, Move 3, Combat 6, Capacity 1, SUSTAIN DAMAGE."
+  },
+  {
+    "id": "hel_titan_ii",
+    "name": "Hel-Titan II",
+    "type": "unitUpgrade",
+    "faction": "titans",
+    "prerequisites": ["warfare", "cybernetic"],
+    "description": "Improved PDS with ground combat capability. Combat 6, SUSTAIN DAMAGE, SPACE CANNON 5, PRODUCTION 1."
+  },
+  {
+    "id": "dimensional_tear_ii",
+    "name": "Dimensional Tear II",
+    "type": "unitUpgrade",
+    "faction": "cabal",
+    "prerequisites": ["warfare", "warfare"],
+    "description": "Improved flagship. Cost 8, Move 1, Combat 5 (x2), Capacity 3, SUSTAIN DAMAGE, BOMBARDMENT 5. Units destroyed by this unit are captured."
+  },
+  {
+    "id": "vortex",
+    "name": "Vortex",
+    "type": "propulsion",
+    "faction": "cabal",
+    "prerequisites": ["propulsion"],
+    "description": "ACTION: Exhaust this card to choose another player's non-structure unit in a system that is adjacent to 1 or more of your units that have DIMENSIONAL TEAR; capture that unit."
+  },
+  {
+    "id": "iihq_modernization",
+    "name": "IIHQ Modernization",
+    "type": "cybernetic",
+    "faction": "keleres",
+    "prerequisites": ["cybernetic"],
+    "description": "You are neighbors with all other players. Your ships can move through systems that contain other players' ships."
+  },
+  {
+    "id": "agency_supply_network",
+    "name": "Agency Supply Network",
+    "type": "propulsion",
+    "faction": "keleres",
+    "prerequisites": ["propulsion"],
+    "description": "Whenever any player replenishes commodities, you may gain 1 trade good."
+  }
+]

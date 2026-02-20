@@ -1,0 +1,430 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A100000001000001 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = A100000002000001 /* App.swift */; };
+		A100000001000002 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A100000002000003 /* Assets.xcassets */; };
+		A100000001000010 /* TI4Data in Frameworks */ = {isa = PBXBuildFile; productRef = A100000005000010 /* TI4Data */; };
+		A100000001000011 /* Codex in Frameworks */ = {isa = PBXBuildFile; productRef = A100000005000011 /* Codex */; };
+		A100000001000012 /* DraftLab in Frameworks */ = {isa = PBXBuildFile; productRef = A100000005000012 /* DraftLab */; };
+		A100000001000013 /* BattleCalc in Frameworks */ = {isa = PBXBuildFile; productRef = A100000005000013 /* BattleCalc */; };
+		A100000001000014 /* Chronicle in Frameworks */ = {isa = PBXBuildFile; productRef = A100000005000014 /* Chronicle */; };
+		A100000001000015 /* Advisor in Frameworks */ = {isa = PBXBuildFile; productRef = A100000005000015 /* Advisor */; };
+		A100000001000016 /* ClaudeAPI in Frameworks */ = {isa = PBXBuildFile; productRef = A100000005000016 /* ClaudeAPI */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A100000002000001 /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
+		A100000002000003 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A100000002000099 /* GalacticCodex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GalacticCodex.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A100000003000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A100000001000010 /* TI4Data in Frameworks */,
+				A100000001000011 /* Codex in Frameworks */,
+				A100000001000012 /* DraftLab in Frameworks */,
+				A100000001000013 /* BattleCalc in Frameworks */,
+				A100000001000014 /* Chronicle in Frameworks */,
+				A100000001000015 /* Advisor in Frameworks */,
+				A100000001000016 /* ClaudeAPI in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A100000004000001 /* = root = */ = {
+			isa = PBXGroup;
+			children = (
+				A100000004000002 /* GalacticCodex */,
+				A100000004000003 /* Products */,
+				A100000004000004 /* Packages */,
+			);
+			sourceTree = "<group>";
+		};
+		A100000004000002 /* GalacticCodex */ = {
+			isa = PBXGroup;
+			children = (
+				A100000002000001 /* App.swift */,
+				A100000002000003 /* Assets.xcassets */,
+			);
+			path = GalacticCodex;
+			sourceTree = "<group>";
+		};
+		A100000004000003 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A100000002000099 /* GalacticCodex.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A100000004000004 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A100000006000001 /* GalacticCodex */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A100000008000003 /* Build configuration list for PBXNativeTarget "GalacticCodex" */;
+			buildPhases = (
+				A100000003000002 /* Sources */,
+				A100000003000001 /* Frameworks */,
+				A100000003000003 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GalacticCodex;
+			packageProductDependencies = (
+				A100000005000010 /* TI4Data */,
+				A100000005000011 /* Codex */,
+				A100000005000012 /* DraftLab */,
+				A100000005000013 /* BattleCalc */,
+				A100000005000014 /* Chronicle */,
+				A100000005000015 /* Advisor */,
+				A100000005000016 /* ClaudeAPI */,
+			);
+			productName = GalacticCodex;
+			productReference = A100000002000099 /* GalacticCodex.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A100000007000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					A100000006000001 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = A100000008000001 /* Build configuration list for PBXProject "GalacticCodex" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A100000004000001;
+			packageReferences = (
+				A100000009000010 /* XCLocalSwiftPackageReference "Packages/TI4Data" */,
+				A100000009000011 /* XCLocalSwiftPackageReference "Packages/Codex" */,
+				A100000009000012 /* XCLocalSwiftPackageReference "Packages/DraftLab" */,
+				A100000009000013 /* XCLocalSwiftPackageReference "Packages/BattleCalc" */,
+				A100000009000014 /* XCLocalSwiftPackageReference "Packages/Chronicle" */,
+				A100000009000015 /* XCLocalSwiftPackageReference "Packages/Advisor" */,
+				A100000009000016 /* XCLocalSwiftPackageReference "Packages/ClaudeAPI" */,
+			);
+			productRefGroup = A100000004000003 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A100000006000001 /* GalacticCodex */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A100000003000003 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A100000001000002 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A100000003000002 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A100000001000001 /* App.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A10000000A000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A10000000A000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A10000000A000003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.galacticcodex.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A10000000A000004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.galacticcodex.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A100000008000001 /* Build configuration list for PBXProject "GalacticCodex" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A10000000A000001 /* Debug */,
+				A10000000A000002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A100000008000003 /* Build configuration list for PBXNativeTarget "GalacticCodex" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A10000000A000003 /* Debug */,
+				A10000000A000004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		A100000009000010 /* XCLocalSwiftPackageReference "Packages/TI4Data" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Packages/TI4Data;
+		};
+		A100000009000011 /* XCLocalSwiftPackageReference "Packages/Codex" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Packages/Codex;
+		};
+		A100000009000012 /* XCLocalSwiftPackageReference "Packages/DraftLab" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Packages/DraftLab;
+		};
+		A100000009000013 /* XCLocalSwiftPackageReference "Packages/BattleCalc" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Packages/BattleCalc;
+		};
+		A100000009000014 /* XCLocalSwiftPackageReference "Packages/Chronicle" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Packages/Chronicle;
+		};
+		A100000009000015 /* XCLocalSwiftPackageReference "Packages/Advisor" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Packages/Advisor;
+		};
+		A100000009000016 /* XCLocalSwiftPackageReference "Packages/ClaudeAPI" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Packages/ClaudeAPI;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A100000005000010 /* TI4Data */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = TI4Data;
+		};
+		A100000005000011 /* Codex */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Codex;
+		};
+		A100000005000012 /* DraftLab */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = DraftLab;
+		};
+		A100000005000013 /* BattleCalc */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = BattleCalc;
+		};
+		A100000005000014 /* Chronicle */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Chronicle;
+		};
+		A100000005000015 /* Advisor */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Advisor;
+		};
+		A100000005000016 /* ClaudeAPI */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ClaudeAPI;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+	};
+	rootObject = A100000007000001 /* Project object */;
+}
